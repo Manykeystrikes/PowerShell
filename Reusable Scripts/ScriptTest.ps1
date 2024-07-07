@@ -30,6 +30,24 @@ if ($temperature -lt 32){
 
 
 
+#4. Switch statement
+$dayOfWeek = "Monday"
+
+Switch ($dayOfWeek){
+    "Monday"    { Write-Host "Today is Monday" }
+    "Tuesday"   { Write-Host "Today is Tuesday" }
+    "Wednesday" { Write-Host "Today is Wednesday" }
+    "Thursday"  { Write-Host "Today is Thursday" }
+    "Friday"    { Write-Host "Today is Friday" }
+    "Saturday"  { Write-Host "Today is Saturday" }
+    "Sunday"    { Write-Host "Today is Sunday" }
+    default     { Write-Host "Invalid day of the week" }
+}
+
+
+
+
+
 
 
 
